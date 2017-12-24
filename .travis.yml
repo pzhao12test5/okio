@@ -1,7 +1,3 @@
-addons:
-  apt:
-    packages:
-    - oracle-java8-installer
 after_success:
 - .buildscript/deploy_snapshot.sh
 before_cache:
